@@ -1,0 +1,70 @@
+body{
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    background-color: rgb(49, 22, 66);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    max-width: 500px;
+    width: 100%;
+    height: 400px;
+    padding: 0 1rem 3rem;
+    background-color:black;
+    display: flex;
+    border-radius: 12px;
+    flex-direction: column;
+    align-items: center;
+}
+.Register{
+    font-size: 30px;
+    padding: 1rem;
+    margin: 1.5rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    color: gray;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 11px;
+    position: absolute;
+    margin-top: 12rem;
+    margin-right: 16rem;
+}
+input{
+    width: 400px;
+    color: white;
+    font-size: 15px;
+    border: 1px solid skyblue;
+    background-color: black;
+    height: 45px;
+    padding-left: 1rem;
+    border-radius: 8px;
+    justify-content: center;
+    display: flex;
+}
+.submits{
+   border-radius: 8px;
+   border-style: none;
+   margin-left: 30%;
+   padding: 1rem;
+   width: 150px;
+   color: white;    
+   font-size: 15px;
+   border: 1px solid lightgreen;
+   background-color: black;
+}
+form{
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+}
+.btn{
+    font-size: 15px;
+    color: blue;
+    background-color: black;
+    border-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
